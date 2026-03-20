@@ -16,7 +16,7 @@ eliminating S-Box means this implementation is a linear cipher.
 
 In fact, this is a fully linear cipher, so one could write the encryptor function as an affine transformation:
 
-$$
+```math
 f(\mathbf{b}) =
 \underbrace{
 \begin{pmatrix}
@@ -42,7 +42,7 @@ k_1 \\
 \vdots \\
 k_{255}
 \end{pmatrix}}_{\mathbf{k}}
-$$
+```
 where each of the entries are in Galois field $GF(2)$ and multiplications and addition of numbers are done on $GF(2)$ as well.
 
 Note also that $A$ is independent of the key used for this "weak AES",
