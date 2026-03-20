@@ -66,7 +66,7 @@ A = [\mathbf{e}_0 | \mathbf{e}_1 | \cdots | \mathbf{e}_{255}]
 
 Then since a single plaintext-ciphertext pair is given, we can use that to find $\mathbf{k}$.
 
-After determining $\mathbf{k}$, since we have now fully described the encryptor, one could write decryptor as $f^-1(\mathbf{c}) = A^{-1}(\mathbf{c} + \mathbf{k})$. (Note that addition is equal to subtraction in $GF(2)$)
+After determining $\mathbf{k}$, since we have now fully described the encryptor, one could write decryptor as $f^-1(\mathbf{c}) = A^{-1}(\mathbf{c} + \mathbf{k})$. (Note that addition is equal to subtraction in $GF(2)$ )
 
 ## Solution
 For implementation see [analysis.ipynb](./analysis.ipynb)
