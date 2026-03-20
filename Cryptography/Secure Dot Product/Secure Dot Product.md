@@ -83,6 +83,9 @@ To actually make this a vulnerability, they even stripped away the square braket
 Instead, you will get dot product of the key with vector formed using the absolute value of each entry of the trusted vector.
 
 ### (Failed Attempts?)
+I initially thought this was another lattice problem.
+
+However, after trying for so long, it was extremely unreliable to get a solution (due to only using length-5 vectors to recover length-32 vector is just silly).
 
 ## Solution
 Since we identified length extension attack, we need a way to actually do the length extension attack.
@@ -91,3 +94,9 @@ We used [hashpump](https://github.com/mheistermann/HashPump-partialhash) for thi
 Setting this up is as simple as cloning and `make`-ing it.
 
 In my implementation of the solution [analysis.ipynb](./analysis.ipynb), I call this binary and process the output to read it back into Python.
+
+**Note that for some reason, my length extension attack sometimes failed, so I had to run it a few times to get it to work**.
+
+In a nutshell of what I did in the solution is to query the server until there is at least one trusted vector out of five such that the length is 1. (Best if this happened to be positive as well.)
+
+Then use extension attack to get 31 more vectors, then solve the linear system of size 32.
