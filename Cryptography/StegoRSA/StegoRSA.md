@@ -93,9 +93,12 @@ LeRoM0oBEsIBRbjbSUqeKBDH
 
 I see! It is a private key of some sort!
 
-If you could not guess that this is an RSA key from the title, you could run the following command to view information about this:
+I pasted this into `encryptor.pkey`
+
+If you could not guess that this is an RSA key from the title, you could run `openssl pkey -in encryptor.pkey -text -noout` to view information about this:
+
+
 ```
-openssl pkey -in encryptor.pkey -text -noout
 Private-Key: (2048 bit, 2 primes)
 modulus:
     00:b2:57:31:56:64:d9:4a:3a:b6:0a:c9:81:58:87:
