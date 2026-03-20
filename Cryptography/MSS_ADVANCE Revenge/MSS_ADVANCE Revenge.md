@@ -12,7 +12,7 @@ As hint suggests, this is a problem of solving a close vector problem on a latti
 
 (Note that polynomial evaluation is done using Horner's method.)
 
-Given bunch of $(X_i, Y_i)$ where $i=0, 1, \cdots, 29$,
+Given bunch of $(X_i, Y_i)$ where $i=0, 1, \cdots, 19$,
 we can write a linear system of equations.
 
 ```math
@@ -20,7 +20,7 @@ c_0 X_0^{29} + c_1 X_1^{28} + \cdots + c_{29} \equiv Y_0 \mod p \\
 c_0 X_1^{29} + c_1 X_1^{28} + \cdots + c_{29} \equiv Y_1 \mod p \\
 c_0 X_2^{29} + c_1 X_2^{28} + \cdots + c_{29} \equiv Y_2 \mod p \\
 \vdots \\
-c_0 X_{29}^{29} + c_1 X_{29}^{28} + \cdots + c_{29} \equiv Y_{29} \mod p
+c_0 X_{19}^{29} + c_1 X_{19}^{28} + \cdots + c_{29} \equiv Y_{29} \mod p
 ```
 Note that we have 20 equations for 30 unknowns which is not a fully determined system.
 We also note that all equations are done in modulo $p$ which is a 1024-bit prime number, and all other numbers are 256-bit unsigned integers.
