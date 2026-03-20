@@ -84,7 +84,7 @@ $c_0$ is the key that can be used for decrypting.
 ### Failed Attempts?
 This is a summary my first idea before the whole lattice shenanigan (which did not work).
 
-An idea I had was to use divisor theorem and attempt to write it as a nested $a = qd + r$ form, basically.
+An idea I had was to use factor theorem and attempt to write it as a nested $a = qd + r$ form, basically.
 
 Given $(X_1, Y_1)$ one could write $p(x) = Q_1(x)(x-X_0) + Y_0$
 
