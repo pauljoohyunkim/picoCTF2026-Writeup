@@ -59,9 +59,10 @@ that are:
 * $\mathbf{e}_{255}^T = (0, 0, 0, \cdots, 1)$
 
 Because of how matrices capture linear transformations, the output can be written as the columns, that is
-$$
+
+```math
 A = [\mathbf{e}_0 | \mathbf{e}_1 | \cdots | \mathbf{e}_{255}]
-$$
+```
 
 Then since a single plaintext-ciphertext pair is given, we can use that to find $\mathbf{k}$.
 
