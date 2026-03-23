@@ -12,26 +12,26 @@ In all write-ups of the challenges, the flags will be redacted.
     * Binary Digits
     * Old Sessions
     * Echo Escape 1
-    * StegoRSA
+    * [StegoRSA](Cryptography/StegoRSA/StegoRSA.md)
     * Piece by Piece
     * Quizploit
     * SUDO MAKE ME A SANDWICH
     * Echo Escape 2
-    * ClusterRSA
-    * Shared Secrets
+    * [ClusterRSA](Cryptography/ClusterRSA/ClusterRSA.md)
+    * [Shared Secrets](Cryptography/Shared%20Secrets/Shared%20Secrets.md)
     * Gatekeeper
     * MY GIT
-    * shift registers
+    * [shift registers](Cryptography/Shared%20Secrets/Shared%20Secrets.md)
     * Hashgate
     * Sql Map1
-    * Timestamped Secrets
+    * [Timestamped Secrets](Cryptography/Timestamped%20Secrets/Timestamped%20Secrets.md)
 * March 11th, 2026
     * Hidden Cipher 1
     * Hidden Cipher 2
     * Bypass Me
     * MultiCode
     * ABSOLUTE NANO
-    * Related Messages
+    * [Related Messages](Cryptography/Related%20Messages/Related%20Messages.md)
 * March 12th, 2026
     * No FA
     * Foll the Lockout
@@ -46,7 +46,7 @@ In all write-ups of the challenges, the flags will be redacted.
     * bytemancy 1
     * bytemancy 2
 * March 14th, 2026
-    * Black Cobra Pepper
+    * [Black Cobra Pepper](Cryptography/Black%20Cobra%20Pepper/Black%20Cobra%20Pepper.md)
 * March 15th, 2026
     * bytemancy 3
     * Silent Stream
@@ -65,20 +65,20 @@ In all write-ups of the challenges, the flags will be redacted.
     * Failure Failure
     * KSECRETS
 * March 17th, 2026
-    * cryptomaze
+    * [cryptomaze](Cryptography/cryptomaze/cryptomaze.md)
     * Printer Shares 3
     * Smart_Overflow
     * Rogue Tower
     * Credential Stuffing
-    * Small Trouble
+    * [Small Trouble](Cryptography/Small%20Trouble/Small%20Trouble.md)
     * ORDER ORDER
     * Secret Box
 * March 18th, 2026
-    * MSS_ADVANCE Revenge
+    * [MSS_ADVANCE Revenge](Cryptography/MSS_ADVANCE%20Revenge/MSS_ADVANCE%20Revenge.md)
     * Reentrance
 * March 19th, 2026
-    * Secure Dot Product
+    * [Secure Dot Product](Cryptography/Secure%20Dot%20Product/Secure%20Dot%20Product.md)
     * Heap Havoc
     * tea-cash
-    * Not TRUe
+    * [Not TRUe](Cryptography/Not%20TRUe/Not%20TRUe.md)
 
