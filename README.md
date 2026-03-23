@@ -18,8 +18,10 @@ In all write-ups of the challenges, the flags will be redacted.
     * SUDO MAKE ME A SANDWICH
     * Echo Escape 2
     * ClusterRSA
+    * Shared Secrets
     * Gatekeeper
     * MY GIT
+    * shift registers
     * Hashgate
     * Sql Map1
     * Timestamped Secrets
@@ -35,6 +37,7 @@ In all write-ups of the challenges, the flags will be redacted.
     * Foll the Lockout
     * Timeline 0
     * offset-cycle
+    * DISKO 4
     * bytemancy 0
 * March 13th, 2026
     * Password Profiler
@@ -78,4 +81,4 @@ In all write-ups of the challenges, the flags will be redacted.
     * Heap Havoc
     * tea-cash
     * Not TRUe
-    
+
