@@ -24,3 +24,58 @@ In all write-ups of the challenges, the flags will be redacted.
     * Sql Map1
     * Timestamped Secrets
 * March 11th, 2026
+    * Hidden Cipher 1
+    * Hidden Cipher 2
+    * Bypass Me
+    * MultiCode
+    * ABSOLUTE NANO
+    * Related Messages
+* March 12th, 2026
+    * No FA
+    * Foll the Lockout
+    * Timeline 0
+    * offset-cycle
+    * bytemancy 0
+* March 13th, 2026
+    * Password Profiler
+    * Printer Shares
+    * Autorev 1
+    * bytemancy 1
+    * bytemancy 2
+* March 14th, 2026
+    * Black Cobra Pepper
+* March 15th, 2026
+    * bytemancy 3
+    * Silent Stream
+    * offset-cycleV2
+    * Secure Password Database
+    * North-South
+* March 16th, 2026
+    * Forensics Git 2
+    * Timeline 1
+    * The Add/On Trap
+    * Access_Control
+    * Front_Running
+    * ping-cmd
+    * Undo
+    * Printer Shares 2
+    * Failure Failure
+    * KSECRETS
+* March 17th, 2026
+    * cryptomaze
+    * Printer Shares 3
+    * Smart_Overflow
+    * Rogue Tower
+    * Credential Stuffing
+    * Small Trouble
+    * ORDER ORDER
+    * Secret Box
+* March 18th, 2026
+    * MSS_ADVANCE Revenge
+    * Reentrance
+* March 19th, 2026
+    * Secure Dot Product
+    * Heap Havoc
+    * tea-cash
+    * Not TRUe
+    
